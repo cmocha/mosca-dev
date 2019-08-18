@@ -1,4 +1,11 @@
-# eleventy-base-blog
+# Blog for mosca.dev
+Built on eleventy-base-blog.
+
+## Change Log
+
+
+## Reference to original README
+## eleventy-base-blog
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 
