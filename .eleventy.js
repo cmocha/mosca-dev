@@ -28,6 +28,15 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
+  // Get an intro or in WordPress land an excerpt.
+  eleventyConfig.addFilter("intro", (string, n) => {
+    if (n < 0) {
+      return string.slice(n);
+    }
+
+    return string.slice(0, n);
+  });
+
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
   eleventyConfig.addPassthroughCopy("img");
