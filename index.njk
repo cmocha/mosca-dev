@@ -5,9 +5,9 @@ tags:
 navtitle: Home
 ---
 
-<h1>Latest 3 Posts</h1>
+<h1>Chris's Blog. Collection of technical reference, thoughts, articles and tutorials.</h1>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts | head(-4) %}
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
