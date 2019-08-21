@@ -2,6 +2,11 @@
 Built on eleventy-base-blog.
 
 ## Change Log
+- set origin remote to github.
+- set live remote to server.
+- update readme.
+- update metadata.json with project info
+- Cloned eleventy base blog
 
 
 ## Reference to original README
