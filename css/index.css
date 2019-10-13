@@ -298,6 +298,7 @@ a.postlist-link, a.postlist-link:visited{
 }
 .postlist-intro {
   font-size: .8em;
+  color:var(--notreallywhite);
 }
 
 
