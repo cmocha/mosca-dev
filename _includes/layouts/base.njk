@@ -29,7 +29,7 @@
       <aside class="sidebar">
         
         <img class="profile" src="/img/profile.jpeg">
-        <p class="profile">chris mosca . web dev</p>
+        <p class="profile">&ldquo;Chris says,&rdquo;</p>
         <ul>
           {%- for post in collections.posts -%}
             <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
@@ -43,15 +43,16 @@
       
       </aside>
 
-      <footer class="footer">if you find this site useful please share it | today is <span id="copyrightYear"></span>  | &copy; mosca.dev
+      <footer class="footer">if you find this site useful please share it | &copy; <span id="copyrightYear"></span> mosca.dev
         <script type="text/javascript">
           // document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
 
           var theYear = new Date().getFullYear();
           var theDate = new Date().getDate();
-          var theMonth = new Date().getMonth();
+          // var theMonth = new Date().getMonth();
 
-          document.getElementById("copyrightYear").innerHTML = theMonth + '/' + theDate + '/' + theYear;
+          // document.getElementById("copyrightYear").innerHTML = theMonth + '/' + theDate + '/' + theYear;
+          document.getElementById("copyrightYear").innerHTML = theYear;
         </script>
       </footer>
 
