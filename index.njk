@@ -2,12 +2,15 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Home
+navtitle: Blog
 ---
 
-<h1>Chris's Blog. Collection of technical reference, thoughts, articles and tutorials.</h1>
+<h1>Chris's Blog.
+  <small>A collection of technical reference, thoughts, articles and tutorials.</small>
+</h1>
 
 {% set postslist = collections.posts | head(-4) %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in
+  <a href="{{ '/posts/' | url }}">the archive</a>.</p>
