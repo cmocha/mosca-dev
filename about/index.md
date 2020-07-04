@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 title: About Me
+description: I have been designing and coding websites for roughly over 10 years.
 tags:
   - nav
 navtitle: About
