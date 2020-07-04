@@ -8,6 +8,7 @@ tags:
   - jamstack
 layout: layouts/post.njk
 templateClass: tmpl-post
+date: 2020-03-05
 ---
 
 This journey started with wanting to build a new site for myself. Well I really wanted an excuse to work on something totally new and green. You know, pick whatever tech stack I wanted and no looking back. So time has come, build a simple site that I could document stuff I was working on, learning about and interested in.
