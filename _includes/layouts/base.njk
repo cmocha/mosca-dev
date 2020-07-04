@@ -13,37 +13,47 @@
 
     <div class="container">
       <header class="header">
-        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }} $ <span class="prompt"></span></a></h1>
+        <h1 class="home">
+          <a href="{{ '/' | url }}">{{ metadata.title }}
+            $
+            <span class="prompt"></span></a>
+        </h1>
         <ul class="nav">
           {%- for nav in collections.nav | reverse -%}
-          <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+            <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}">
+              <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+            </li>
           {%- endfor -%}
         </ul>
       </header>
 
-      <main{% if templateClass %} class="main {{ templateClass }}"{% endif %}>
+      <main{% if templateclass %} class="main {{ templateClass }}" {% endif %}>
 
         {{ content | safe }}
       </main>
 
       <aside class="sidebar">
-        
+
         <img class="profile" src="/img/profile.jpeg">
         <p class="profile">&ldquo;Chris says,&rdquo;</p>
         <ul>
           {%- for post in collections.posts -%}
-            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+            <li>
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </li>
           {%- endfor -%}
         </ul>
 
         {% for tag in collections.tagList %}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
         {% endfor %}
-      
+
       </aside>
 
-      <footer class="footer">if you find this site useful please share it | &copy; <span id="copyrightYear"></span> mosca.dev
+      <footer class="footer">if you find this site useful please share it | &copy;
+        <span id="copyrightYear"></span>
+        mosca.dev
         <script type="text/javascript">
           // document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
 
@@ -52,7 +62,9 @@
           // var theMonth = new Date().getMonth();
 
           // document.getElementById("copyrightYear").innerHTML = theMonth + '/' + theDate + '/' + theYear;
-          document.getElementById("copyrightYear").innerHTML = theYear;
+          document
+            .getElementById("copyrightYear")
+            .innerHTML = theYear;
         </script>
       </footer>
 
