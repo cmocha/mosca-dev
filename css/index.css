@@ -44,6 +44,10 @@ p,
 .tmpl-post li {
   line-height: 1.6;
 }
+main {
+  min-height: calc(100vh - 130px);
+}
+
 main p {
   color: var(--notreallywhite);
 }
@@ -220,6 +224,7 @@ span.prompt::after {
   grid-area: footer;
   background-color: #111;
   font-size: 0.7em;
+  text-align: center;
 }
 
 .container {
