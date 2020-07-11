@@ -15,7 +15,7 @@ This journey started with wanting to build a new site for myself. Well I really 
 
 Okay so where to begin? The part that I would imagine most developers consider is their favorite part of any project. What is that? Getting to pick what tech to build with of course! Well for me at least this is the most fun and also sometimes the most difficult.
 
-With all of the talk about Jamstack lately I had to take a dive and see what this "JAM" stack was all about. I think it was perhaps a podcast where I first heard those words. I must admit my first thought was mixed feelings but still somewhat taken by the sound of it all. So I took off running and in a frenzy looking online to what I could find out about this stack the Jamstack.
+With all of the talk about Jamstack lately I had to take a dive and see what this "JAM" stack was all about. I think it was perhaps a podcast where I first heard those words. I must admit my first thought was mixed feelings but still somewhat taken by the sound of it all. So I took off running and in a frenzy looking online to what I could find out about this stack.
 
 I think it was the [jamstack guitar amplifier site](https://jamstack.io) that I found first and thought, well that's kinda cool but not what I'm looking for right now. Umm let's bookmark that for later. ;) Okay, maybe the next or so result was it. The [Jamstack.org](https://jamstack.org) website was the one and where I learned a bit more about what makes a website a Jamstack website. I was sold pretty quickly and wanted to experiment and use this stack on my next project. It had brought back an excitement in developing and designing websites that I was missing for some time. It was refreshing. I mean doesn't a webstack promising performance, scaling, security and a better developer experience just sound sweet?
 
@@ -46,7 +46,7 @@ eleventyConfig.addFilter("intro", (string, n) => {
 
 Next I thought about what if I wanted to somehow use an alternate content source, like content from a headless cms. Maybe this is not what 11ty is really intended for or maybe it has no real preference, but I was able to successfully fetch some content from a [Strapi](https://www.strapi.io/) setup. So my thought afterwards is Eleventy is not opinionated on how you provide it content. It is a tool in your web dev tool box that simply allows you to generate some static markup using practically any templating style you want from any data/content available.
 
-In the end I realized this was really all I needed at this time for a simple blog site... Okay so no framework, and probably not a real Jamstack project... Just Eleventy. Oh but I see a Jamstack project on the horizon. Actually it is only a matter of time before I use some service or API on this site. Somebody say comments?
+In the end I realized this was really all I needed at this time for a simple blog site... Okay so no framework, and probably not a real Jamstack project... Just Eleventy. Oh but I see one perhaps on the horizon. Actually it is only a matter of time before I use some service or API on this site. Somebody say comments?
 
 ### Summary
 
