@@ -13,6 +13,6 @@ I have been designing and coding websites for roughly over 10 years. I have work
 
 If you need help with your web project give me a shout.
 
-This is my personal field notes of technical things done past. A collection of references to refer back to. Maybe help others on their journeys just as others have guided me on my journey. If you like what you find here please share it. TXY BKS
+This is my personal field notes of technical things done past. A collection of references to refer back to. Maybe help others on their journeys just as others have guided me on my journey. If you like what you find here please share it. TXY BKS FTs
 
 <a href="{{ metadata.feed.url }}">{{ metadata.feed.url }}</a></p>
